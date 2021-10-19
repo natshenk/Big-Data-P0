@@ -2647,3 +2647,5 @@ Caused by: java.lang.NullPointerException
 
 Oct 19, 2021 6:03:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+[0m2021.10.19 18:03:34 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 18:03:34 INFO  time: compiled root in 0.25s[0m
