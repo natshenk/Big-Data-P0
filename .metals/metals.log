@@ -2283,3 +2283,369 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.10.19 13:56:19 INFO  time: compiled root in 0.22s[0m
 Oct 19, 2021 1:57:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+[0m2021.10.19 13:59:07 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 13:59:07 INFO  time: compiled root in 0.21s[0m
+Oct 19, 2021 2:46:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 392
+Oct 19, 2021 2:46:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 412
+Oct 19, 2021 2:51:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 566
+[0m2021.10.19 17:03:59 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:03:59 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.7' (since 3h 10m 40.273s)[0m
+[0m2021.10.19 17:03:59 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:03:59 INFO  time: compiled root in 0.47s[0m
+Oct 19, 2021 5:04:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Debugging is not supported because bloop server is running on a JRE C:\Program Files\java\jre1.8.0_301 with no support for Java Debug Interface: 'JDI implementation is not provided by the vendor'. To enable debugging, install a JDK and restart the bloop server.
+
+Run bloop about for more information about the current JDK runtime.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Debugging is not supported because bloop server is running on a JRE C:\Program Files\java\jre1.8.0_301 with no support for Java Debug Interface: 'JDI implementation is not provided by the vendor'. To enable debugging, install a JDK and restart the bloop server.
+
+Run bloop about for more information about the current JDK runtime.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Debugging is not supported because bloop server is running on a JRE C:\Program Files\java\jre1.8.0_301 with no support for Java Debug Interface: 'JDI implementation is not provided by the vendor'. To enable debugging, install a JDK and restart the bloop server.
+
+Run bloop about for more information about the current JDK runtime.
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:237)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:229)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.10.19 17:04:13 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:13 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:19 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:19 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:19 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:19 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:21 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:21 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:21 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:21 INFO  C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:17:13: stale bloop error: missing argument list for method + in class String
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.
+> "Welcome to the First National Bank of Mongo\n" +
+>             "Please select an action from the list below by typing its number:\n" +
+>             "1 : Create an account\n" +
+>             "2 : Delete an account\n" +
+>             "3 : Update account details\n" +
+>             "4 : See savings balance\n" +
+>             "5 : See checking balance\n" +[0m
+[0m2021.10.19 17:04:24 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:04:24 INFO  time: compiled root in 0.5s[0m
+[0m2021.10.19 17:04:27 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.7' (since 3h 11m 8.54s)[0m
+Oct 19, 2021 5:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Debugging is not supported because bloop server is running on a JRE C:\Program Files\java\jre1.8.0_301 with no support for Java Debug Interface: 'JDI implementation is not provided by the vendor'. To enable debugging, install a JDK and restart the bloop server.
+
+Run bloop about for more information about the current JDK runtime.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Debugging is not supported because bloop server is running on a JRE C:\Program Files\java\jre1.8.0_301 with no support for Java Debug Interface: 'JDI implementation is not provided by the vendor'. To enable debugging, install a JDK and restart the bloop server.
+
+Run bloop about for more information about the current JDK runtime.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Debugging is not supported because bloop server is running on a JRE C:\Program Files\java\jre1.8.0_301 with no support for Java Debug Interface: 'JDI implementation is not provided by the vendor'. To enable debugging, install a JDK and restart the bloop server.
+
+Run bloop about for more information about the current JDK runtime.
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:237)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:229)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.10.19 17:05:03 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:05:03 INFO  time: compiled root in 0.29s[0m
+[0m2021.10.19 17:05:17 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:05:17 INFO  time: compiled root in 0.34s[0m
+[0m2021.10.19 17:10:18 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:10:18 INFO  time: compiled root in 0.3s[0m
+[0m2021.10.19 17:15:00 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:15:00 INFO  time: compiled root in 0.36s[0m
+[0m2021.10.19 17:16:08 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:16:08 INFO  time: compiled root in 0.18s[0m
+[0m2021.10.19 17:19:31 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:19:31 INFO  time: compiled root in 0.25s[0m
+[0m2021.10.19 17:22:55 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:22:55 INFO  time: compiled root in 0.23s[0m
+[0m2021.10.19 17:25:36 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:25:36 INFO  time: compiled root in 0.19s[0m
+[0m2021.10.19 17:27:16 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:27:16 INFO  time: compiled root in 0.11s[0m
+[0m2021.10.19 17:28:44 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:28:44 INFO  time: compiled root in 23ms[0m
+[0m2021.10.19 17:28:54 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:28:54 INFO  time: compiled root in 96ms[0m
+[0m2021.10.19 17:29:45 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:29:45 INFO  time: compiled root in 0.11s[0m
+[0m2021.10.19 17:30:02 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:30:02 INFO  time: compiled root in 0.11s[0m
+[0m2021.10.19 17:31:44 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:31:44 INFO  time: compiled root in 0.19s[0m
+[0m2021.10.19 17:39:15 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:39:15 INFO  time: compiled root in 0.2s[0m
+[0m2021.10.19 17:39:28 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:39:28 INFO  time: compiled root in 0.21s[0m
+something's wrong: no file:///C:/Users/natsh/ScalaCode/big-data-p0/src/main/scala/P0/project0.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/natsh/ScalaCode/big-data-p0/src/main/scala/P0/project0.scala, 1842, 1842, 1867)
+something's wrong: no file:///C:/Users/natsh/ScalaCode/big-data-p0/src/main/scala/P0/project0.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/natsh/ScalaCode/big-data-p0/src/main/scala/P0/project0.scala, 394, 394, 419)
+[0m2021.10.19 17:41:40 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:41:40 INFO  time: compiled root in 0.24s[0m
+[0m2021.10.19 17:42:41 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:42:41 INFO  time: compiled root in 0.22s[0m
+something's wrong: no file:///C:/Users/natsh/ScalaCode/big-data-p0/src/main/scala/P0/project0.scala in Array[String]RangePosition(file:///C:/Users/natsh/ScalaCode/big-data-p0/src/main/scala/P0/project0.scala, 482, 482, 495)
+something's wrong: no file:///C:/Users/natsh/ScalaCode/big-data-p0/src/main/scala/P0/project0.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/natsh/ScalaCode/big-data-p0/src/main/scala/P0/project0.scala, 394, 394, 419)
+[0m2021.10.19 17:44:33 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:44:33 INFO  time: compiled root in 65ms[0m
+[0m2021.10.19 17:44:47 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:44:47 INFO  time: compiled root in 0.17s[0m
+[0m2021.10.19 17:49:59 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:49:59 INFO  time: compiled root in 0.17s[0m
+[0m2021.10.19 17:52:07 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:52:07 INFO  time: compiled root in 25ms[0m
+[0m2021.10.19 17:52:23 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:52:23 INFO  time: compiled root in 0.16s[0m
+[0m2021.10.19 17:53:21 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 17:53:21 INFO  time: compiled root in 0.18s[0m
+[0m2021.10.19 18:01:48 INFO  shutting down Metals[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.19 18:01:48 INFO  Shut down connection with build server.[0m
+[0m2021.10.19 18:01:48 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.19 18:02:01 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\natsh\ScalaCode\big-data-p0' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.19 18:02:02 INFO  time: initialize in 0.36s[0m
+[0m2021.10.19 18:02:01 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.19 18:02:02 WARN  no build target for: C:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala[0m
+[0m2021.10.19 18:02:02 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32260'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32260...
+The server is listening for incoming connections at tcp://127.0.0.1:32260...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 18:02:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\natsh\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 18:02:03 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35719'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35719...
+The server is listening for incoming connections at tcp://127.0.0.1:35719...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 18:02:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\natsh\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 18:02:03 INFO  time: Connected to build server in 1.38s[0m
+[0m2021.10.19 18:02:03 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.19 18:02:05 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 18:02:05 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 18:02:07 INFO  time: code lens generation in 4s[0m
+[0m2021.10.19 18:02:07 INFO  time: code lens generation in 1.76s[0m
+[0m2021.10.19 18:02:08 INFO  time: indexed workspace in 2.94s[0m
+[0m2021.10.19 18:02:08 INFO  no build target: using presentation compiler with only scala-library: 2.12.8[0m
+Oct 19, 2021 6:02:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1634680928527,
+    "message": "Compiled \u0027root\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/natsh/ScalaCode/big-data-p0/?id\u003droot"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/natsh/ScalaCode/big-data-p0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-vc7IeP98RAuyk44Kf_UNTQ\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/natsh/ScalaCode/big-data-p0/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:231)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:231)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:230)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:230)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:404)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:402)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:168)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:165)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:164)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:164)
+	... 16 more
+
+Oct 19, 2021 6:03:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.10.19 18:03:34 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 18:03:34 INFO  time: compiled root in 0.25s[0m
