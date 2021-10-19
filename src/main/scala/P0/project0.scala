@@ -37,8 +37,8 @@ object Project0 {
 
       try {
          val json = parse(scala.io.Source.fromFile(jsonFilePath).mkString)
-         
-         // Get each object from the parsed JSON
+
+         // Get a list of objects from the parsed JSON
          val accounts = json.children
 
          // Extract the bank acct info from each object and convert it into a Document
