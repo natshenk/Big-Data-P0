@@ -2,19 +2,19 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "C:\\Users\\natsh\\ScalaCode\\big-data-p0",
-        "workspaceDir": "C:\\Users\\natsh\\ScalaCode\\big-data-p0",
+        "directory": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0",
+        "workspaceDir": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0",
         "sources": [
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\src\\test\\scala-2.12",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\src\\test\\scala",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\src\\test\\java",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\target\\scala-2.12\\src_managed\\test"
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\src\\test\\scala-2.12",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\src\\test\\scala",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\src\\test\\java",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\target\\scala-2.12\\src_managed\\test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\.bloop\\root\\scala-2.12\\classes",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\.bloop\\root\\scala-2.12\\classes",
             "C:\\Users\\natsh\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar",
             "C:\\Users\\natsh\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-driver_2.12\\jars\\mongo-scala-driver_2.12-2.8.0.jar",
             "C:\\Users\\natsh\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-bson_2.12\\jars\\mongo-scala-bson_2.12-2.8.0.jar",
@@ -34,11 +34,11 @@
             "C:\\Users\\natsh\\.ivy2\\cache\\org.scalatest\\scalatest_2.12\\bundles\\scalatest_2.12-3.0.5.jar",
             "C:\\Users\\natsh\\.ivy2\\cache\\org.scalactic\\scalactic_2.12\\bundles\\scalactic_2.12-3.0.5.jar"
         ],
-        "out": "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\.bloop\\root",
-        "classesDir": "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\.bloop\\root\\scala-2.12\\test-classes",
+        "out": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\.bloop\\root",
+        "classesDir": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\.bloop\\root\\scala-2.12\\test-classes",
         "resources": [
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\src\\test\\resources",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\target\\scala-2.12\\resource_managed\\test"
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\src\\test\\resources",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\target\\scala-2.12\\resource_managed\\test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -54,7 +54,7 @@
                 "C:\\Users\\natsh\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\bundles\\scala-xml_2.12-1.0.6.jar",
                 "C:\\Users\\natsh\\.ivy2\\cache\\jline\\jline\\jars\\jline-2.14.6.jar"
             ],
-            "analysis": "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\target\\streams\\test\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.12.zip",
+            "analysis": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\target\\streams\\test\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -113,7 +113,7 @@
             "config": {
                 "home": "C:\\Program Files\\java\\jre1.8.0_301",
                 "options": [
-                    "-Duser.dir=C:\\Users\\natsh\\ScalaCode\\big-data-p0"
+                    "-Duser.dir=C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0"
                 ]
             },
             "mainClass": [
