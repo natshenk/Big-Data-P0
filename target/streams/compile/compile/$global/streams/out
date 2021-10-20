@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:55:29: not found: value equal[0m
-[0m[[0m[31merror[0m] [0m[0m      collection.deleteMany(equal("account_num", *))[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\natsh\ScalaCode\big-data-p0\src\main\scala\P0\project0.scala:55:50: not found: value *[0m
-[0m[[0m[31merror[0m] [0m[0m      collection.deleteMany(equal("account_num", *))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\natsh\OneDrive\Documents\GitHub\Big-Data-P0\src\main\scala\P0\project0.scala:326:67: not found: value dec[0m
+[0m[[0m[31merror[0m] [0m[0m            collection.updateOne(equal("account_num", accountId), dec("savings", deposit)).results()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\natsh\OneDrive\Documents\GitHub\Big-Data-P0\src\main\scala\P0\project0.scala:331:67: not found: value dec[0m
+[0m[[0m[31merror[0m] [0m[0m            collection.updateOne(equal("account_num", accountId), dec("checking", deposit)).results()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

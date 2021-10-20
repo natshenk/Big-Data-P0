@@ -33,3 +33,5 @@ run
 sbt update
 update
 run
+compile
+run

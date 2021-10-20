@@ -4,7 +4,7 @@
 		module="big-data-p0-build$sbt"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20211019122652"
+		publication="20211019224650"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	/>
 	<configurations>

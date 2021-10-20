@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "big-data-p0-build",
-        "directory": "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project",
-        "workspaceDir": "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project",
+        "directory": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project",
+        "workspaceDir": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project",
         "sources": [
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\src\\main\\scala-2.12",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\src\\main\\scala",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\src\\main\\java",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\src\\main\\scala-sbt-1.0",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\Dependencies.scala"
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\src\\main\\scala-2.12",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\src\\main\\scala",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\src\\main\\java",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\src\\main\\scala-sbt-1.0",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\Dependencies.scala"
         ],
         "dependencies": [
             
@@ -102,11 +102,11 @@
             "C:\\Users\\natsh\\.ivy2\\cache\\org.scala-sbt.ivy\\ivy\\jars\\ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar",
             "C:\\Users\\natsh\\.ivy2\\cache\\org.scala-sbt\\zinc-compile_2.12\\jars\\zinc-compile_2.12-1.2.5.jar"
         ],
-        "out": "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\.bloop\\big-data-p0-build",
-        "classesDir": "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\.bloop\\big-data-p0-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\.bloop\\big-data-p0-build",
+        "classesDir": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\.bloop\\big-data-p0-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\src\\main\\resources",
-            "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\src\\main\\resources",
+            "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -121,7 +121,7 @@
                 "C:\\Users\\natsh\\.sbt\\boot\\scala-2.12.7\\lib\\scala-reflect.jar",
                 "C:\\Users\\natsh\\.sbt\\boot\\scala-2.12.7\\lib\\scala-xml_2.12-1.0.6.jar"
             ],
-            "analysis": "C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project\\target\\streams\\compile\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.12.zip",
+            "analysis": "C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project\\target\\streams\\compile\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -190,7 +190,7 @@
             "config": {
                 "home": "C:\\Program Files\\java\\jre1.8.0_301",
                 "options": [
-                    "-Duser.dir=C:\\Users\\natsh\\ScalaCode\\big-data-p0\\project"
+                    "-Duser.dir=C:\\Users\\natsh\\OneDrive\\Documents\\GitHub\\Big-Data-P0\\project"
                 ]
             },
             "mainClass": [
